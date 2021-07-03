@@ -1,0 +1,93 @@
+/* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /*
+
+
+            <-> CSS FOR MAIN FILE <-> 
+
+
+*/ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */
+@font-face {
+  font-family: UniSans;
+  src: url(../fonts/uni-sans.otf);
+}
+@font-face {
+  font-family: UniSansNB;
+  src: url(../fonts/uni-sans-nb.otf);
+}
+@font-face {
+  font-family: UniSansThin;
+  src: url(../fonts/uni-sans-thin.otf);
+}
+body {
+  background-color: rgb(36, 33, 33);
+}
+html {
+  scroll-behavior: smooth;
+}
+.main {
+  background: linear-gradient(
+    270deg,
+    rgba(6, 147, 227, 1) 5%,
+    rgba(235, 20, 76, 1) 95%
+  );
+  color: black;
+  height: 50vh;
+  width: 100%;
+  z-index: 9999999;
+}
+.maintxt {
+  font-family: UniSans;
+  position: absolute;
+  top: 25%;
+  left: 43%;
+  text-decoration: underline;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#mainsvg {
+  z-index: 9999999;
+}
+.maindesc {
+  font-family: UniSansThin;
+  position: absolute;
+  top: 35%;
+  left: 27%;
+  width: 1000px;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+a {
+  color: #00ffaa;
+}
+.large {
+  font-size: 6rem;
+}
+#arrowdown {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  text-decoration: underline;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+#arrowdown:hover {
+  cursor: pointer;
+}
+#smmove {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 1000px;
+  height: 50px;
+}
+.sm:hover {
+  cursor: pointer;
+}
+.linebreak {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 2px;
+  background-color: rgb(77, 77, 77);
+}
