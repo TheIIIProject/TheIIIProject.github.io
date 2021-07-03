@@ -1,7 +1,6 @@
 if (/Android|webOS|iPhone|iPad|Mac|Macintosh|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	alert("We're sorry but your device is not supported")
-	location.reload();
-	window.location.href = window.location
+	window.location.href = "https://www.google.com/search?q=cute+cat+videos"
 }
 
 function arrowPressed() {
